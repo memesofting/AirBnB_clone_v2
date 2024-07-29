@@ -15,7 +15,7 @@ echo "<html>
   <head>
   </head>
   <body>
-    Hello, this is a test page.
+    Hello, deployment test page.
   </body>
 </html>" | sudo tee /data/web_static/releases/test/index.html
 
