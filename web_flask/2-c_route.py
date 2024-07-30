@@ -23,9 +23,9 @@ def display_hbnb():
 
 
 @app.route('/c/<text>', strict_slashes=False)
-def display_text(text):
+def display_c_text(text):
     """displays C followed by the value of text"""
-    
+
     text = text.replace('_', ' ')
     return f"C {escape(text)}"
 
