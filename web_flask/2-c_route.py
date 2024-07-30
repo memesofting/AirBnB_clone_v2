@@ -26,7 +26,8 @@ def display_hbnb():
 def display_text(text):
     """displays C followed by the value of text"""
     
-    return f"C, {escape(text)}"
+    text = text.replace('_', ' ')
+    return f"C {escape(text)}"
 
 
 if __name__ == '__main__':
